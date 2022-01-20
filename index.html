@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+	<head>
+		<!--<script src="https://code.jquery.com/jquery-1.10.2.js"></script>-->
+		<link href="https://fonts.googleapis.com/css?family=Economica" rel="stylesheet">
+		<link rel="stylesheet" href="styles.css">
+		<link rel="stylesheet" href="navbar.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<title >
+			icantcook
+		</title>
+	</head>
+	
+	<body>
+		<nav id="navMenu"></nav>
+	
+		<a class="under" href="#about">Go to About Us</a><br><br><br>
+		
+		<div class="main-body">
+			<h3 class="headings">Recipes</h3>
+			<div class= "slideshow-container">
+				
+				<div class="mySlides fade">
+					<div class="numbertext">1 / 3</div>
+					<img onmouseover="stopTimer()" onmouseout="startTimer()" class="iSlides" src="img/cake.jpg">
+					<div class="text">Cake</div>
+				</div>
+				
+				<div class="mySlides fade">
+					<div class="numbertext">2 / 3</div>
+					<img onmouseover="stopTimer()" onmouseout="startTimer()" class="iSlides" src="img/pho.jpg">
+					<div class="text">Pho</div>
+				</div>
+				
+				<div class="mySlides fade">
+					<div class="numbertext">3 / 3</div>
+					<img onmouseover="stopTimer()" onmouseout="startTimer()" class="iSlides" src="img/burger.jpg">
+					<div class="text">Burger</div>
+				</div>
+				
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+				
+			</div>
+			<br>
+			
+			<center>
+			<div class="dot-container">
+				<span class="dot" onClick="currentSlide(1)"></span>
+				<span class="dot" onClick="currentSlide(2)"></span>
+				<span class="dot" onClick="currentSlide(3)"></span>
+			</div>
+			</center>
+			
+			<h3 class="headings" id="about">About Us</h3>
+		<div id="aboutsection">
+			<img id="aboutimg" src=img/gwc.jpg height="300">
+			<p class="para"><br><br><br><br><br>We are Shorewood's Girls Who Code. Girls Who Code is an organization that works to close the gender gap in the technology. This website was made to help people access information on cooking and what recipes to start out with.</p><br>
+		</div>
+	</div>
+		
+		<nav id="footer"></nav>
+		
+	</body>
+	<script src="slider.js"></script>
+	<script src="navbar.js"></script>
+</html>

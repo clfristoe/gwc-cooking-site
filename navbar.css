@@ -1,0 +1,112 @@
+body{
+	margin:0px;
+}
+
+.pattern{
+	background:url(img/pinkpattern.png);
+}
+.topper{
+	left:0;
+	top:0;
+	width:100%;
+	padding:10px;
+	margin:0px;
+}
+.menu-tab{
+	color:#014254;
+	font-size: 40px;
+	font-family:Verdana;
+	font-style:italic;
+	text-align:center;
+	display:block;
+}
+
+.headings{
+	color:#1ABCBD;
+	font-size:20px;
+}
+
+.nav-bar{
+	overflow:hidden;
+	font-family:arial;
+	background-color:#F4A5A1;
+}
+
+.nav-bar a.difficulty{
+	background-color:#F4A5A1;
+	font-size:15px;
+}
+
+.nav-bar a{
+	float:left;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;
+	color:white;
+}
+
+.nav-bar a:hover{
+	background-color:#FFE246;
+	opacity:0.9;
+	color:white;
+}
+
+.nav-bar a.home{
+	background-color:#F4A5A1;
+	color:white;
+	font-size:15px;
+}
+
+.nav-bar .search-container{
+	float:right;
+}
+
+.nav-bar input[type=textt]{
+	padding:6px;
+	margin-top:8px;
+	font-size:17px;
+	border:none;
+}
+
+.nav-bar .search-container button{
+	float:right;
+	padding:6px 10px;
+	margin-top:8px;
+	margin-right:16px;
+	background:white;
+	font-size:17px;
+	border:none;
+	cursor:pointer;	
+}
+
+.nav-bar .search-container button:hover {
+	background:#FFE246;
+}
+
+.nav-bar input[type=textt], .nav-bar .search-container button{
+	border:1px solid white;
+}
+
+.nav-bar input[type=textt]:hover, .nav-bar .search-container button:hover {
+	border:1px solid #FFE246;
+}
+
+.under{
+	text-decoration:none;
+	color:#014254;
+	opacity:.8;
+}
+
+.under:hover{
+	text-decoration: underline;
+}
+
+.attributions{
+	font-size:11px;
+}
+
+.footer{
+	bottom:0;
+	width:100%;
+	clear:both;
+}

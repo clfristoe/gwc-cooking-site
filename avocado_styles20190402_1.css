@@ -1,0 +1,49 @@
+.nav-bar{
+	overflow:hidden;
+	font-family:arial;
+	background-color:#F4A5A1;
+}
+
+.nav-bar a {
+	float: left;
+	text-align: center;
+	padding: 14px 16px;
+	font-family: "Verdana", cursive, sans-serif;
+	font-size: 15 px;
+}
+
+/*.Picture {
+	float: right;
+}*/
+
+div {
+	font-family: "Verdana", cursive, sans-serif;
+}
+body {
+	background-color: white;
+}
+
+#recipe_image {
+	float: right;
+	max-width: 100%;
+	height: auto;
+	padding: 16px;
+}
+
+.Ingredients {
+/*	float: left;*/
+	text-align: left;
+	padding: 14px 20px;
+	max-width: 700px;
+}
+
+.Instructions {
+/*	float: left;*/
+	text-align: left;
+	padding: 14px 20px;
+	max-width: 700px;
+}
+
+.Headers {
+	color: #1ABCBD;
+}

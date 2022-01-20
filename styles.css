@@ -1,0 +1,148 @@
+body{
+	background-color:white;
+}
+
+.para{
+	color:#014254;
+	display:block;
+	margin:100px;
+	text-align:center;
+}
+
+.attributions{
+	font-size:11px;
+}
+
+.under{
+	text-decoration:none;
+	color:#014254;
+	opacity:.8;
+}
+
+.under:hover{
+	text-decoration: underline;
+}
+
+#aboutsection .p{
+	float:right;
+}
+
+#aboutimg{
+	float:left;
+}
+/*SLIDESHOW*/
+
+.main-body{
+	padding-left:16px;
+	display:block;
+}
+
+*{box-sizing:border-box}
+body{font-family:Verdana,sans-serif;margin:0}
+.mySlides{display:none}
+img{vertical-align:middle;}
+
+.slideshow-container{
+	position:relative;
+	margin:auto;
+	text-align:center;
+}
+
+.slideshow-container img{
+	max-width:80%;
+}
+
+.iSlides{
+	width:500px;
+	height:500px;
+	object-fit:cover;
+}
+
+.prev, .next{
+	cursor:pointer;
+	position:absolute;
+	top:50%;
+	width:auto;
+	padding:16px;
+	margin-top:-22px;
+	color:#FFE246;
+	font-weight:bold;
+	font-size:18px;
+	transition:0.6s ease;
+	border-radius:0 3px 3px 0;
+	user-select:none;
+}
+
+.next{
+	right:0;
+	border-radius:3px 0 0 3px;
+}
+
+.prev{
+	left:0;
+	border-radius:3px 0 0 3px;
+}
+
+.prev:hover, .next:hover{
+	color:#F4A5A1;
+}
+
+.text{
+	color:white;
+	font-size:15px;
+	padding:11px 50px;
+	position:absolute;
+	bottom:8px;
+	width:100%;
+	text-align:center;
+	background-image:url(img/banner.png);
+	background-size:20%;
+	background-position:center bottom;
+	background-repeat:no-repeat;
+}
+
+.numbertext{
+	color:#014254;
+	font-size:12px;
+	padding:8px 12px;
+	position:center;
+	top:0;
+}
+
+.dot{
+	cursor:pointer;
+	height:15px;
+	width:15px;
+	margin: 0 2px;
+	background-color:#014254;
+	border-radius:50%;
+	display:inline-block;
+	transition:background-color 0.6s ease;
+	opacity:.2;
+}
+
+.active, .dot:hover{
+	background-color:#1ABCBD;
+	opacity:.6;
+}
+
+.fade{
+	-webkit-animation-name:fade;
+	-webkit-animation-duration:1.5s;
+	animation-name:fade;
+	animation-duration:1.5s;
+}
+
+@-webkit-keyframes fade{
+	from{opacity:0.4}
+	to{opacity:1}
+}
+
+@keyframes fade{
+	from{opacity:0.4}
+	to{opacity:1}
+}
+
+@media only screen and (max-width:300px){
+	.prev, .next, .text{font-size:11px}
+}
